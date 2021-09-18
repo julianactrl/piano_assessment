@@ -70,4 +70,4 @@ def user_info_correct(merged_files, sys_info):
 
     return merged_files 
          
-print( user_info_correct(merged_files(read_file_a('./Data/filea.csv'), read_file_b('./Data/fileb.csv')), sys_info) )
+print( user_info_correct(merged_files(read_file_a('../Data/filea.csv'), read_file_b('../Data/fileb.csv')), sys_info) )
